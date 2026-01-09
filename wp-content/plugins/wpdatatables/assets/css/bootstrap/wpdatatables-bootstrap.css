@@ -13,8 +13,8 @@
 
 @font-face {
     font-family: 'wpDataTablesIcons' !important;
-    src: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot);
-    src: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot#iefix) format('embedded-opentype'), url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.woff) format('woff'), url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.ttf) format('truetype'), url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.svg#wpDataTablesIcons) format('svg');
+    src: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot);
+    src: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot#iefix) format('embedded-opentype'), url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.woff) format('woff'), url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.ttf) format('truetype'), url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.svg#wpDataTablesIcons) format('svg');
 }
 
 .wpdt-c article,
@@ -308,8 +308,8 @@
 
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url('https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.eot');
-    src: url('https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+    src: url('https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.eot');
+    src: url('https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
 .wpdt-c .glyphicon {
@@ -11745,14 +11745,14 @@ input:focus {
     background-color: #FFF;
     background-position: right calc(100% - 7px);
     background-repeat: no-repeat;
-    background-image: url("https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/select.png");
+    background-image: url("https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/select.png");
     pointer-events: none;
     z-index: 5;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .wpdt-c html:not(.ie9) .select:before {
-        background-image: url("https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/select@2x.png");
+        background-image: url("https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/select@2x.png");
         background-size: 12px 12px;
     }
 }

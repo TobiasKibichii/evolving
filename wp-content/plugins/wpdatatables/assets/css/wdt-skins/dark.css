@@ -8,8 +8,8 @@
     font-family: wpDataTablesIcons;
     font-style: normal;
     font-stretch: normal;
-    src: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot);
-    src: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot#iefix) format('embedded-opentype'), url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.woff) format('woff'), url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.ttf) format('truetype'), url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.svg#wpDataTablesIcons) format('svg');
+    src: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot);
+    src: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot#iefix) format('embedded-opentype'), url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.woff) format('woff'), url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.ttf) format('truetype'), url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.svg#wpDataTablesIcons) format('svg');
 }
 /*  Table   */
 
@@ -714,7 +714,7 @@ div#wpdatatable-preview-container.wpDataTablesWrapper .wpDataTablesWrapper{
 }
 
 .wpdt-c  .wpDataTables .overlayed:after {
-    content: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/loading.gif);
+    content: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/loading.gif);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
     padding: 7px;
     -webkit-border-radius: 50px;

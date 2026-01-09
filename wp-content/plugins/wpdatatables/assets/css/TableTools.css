@@ -141,31 +141,31 @@ button.DTTT_button_print span {
 }
 
 
-button.DTTT_button_csv span { background: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/csv.png) no-repeat bottom right; }
-button.DTTT_button_csv:hover span { background: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/csv_hover.png) no-repeat center right; }
+button.DTTT_button_csv span { background: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/csv.png) no-repeat bottom right; }
+button.DTTT_button_csv:hover span { background: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/csv_hover.png) no-repeat center right; }
 
-button.DTTT_button_xls span { background: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/xls.png) no-repeat center right; }
-button.DTTT_button_xls:hover span { background: #f0f0f0 url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/xls_hover.png) no-repeat center right; }
+button.DTTT_button_xls span { background: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/xls.png) no-repeat center right; }
+button.DTTT_button_xls:hover span { background: #f0f0f0 url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/xls_hover.png) no-repeat center right; }
 
-button.DTTT_button_copy span { background: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/copy.png) no-repeat center right; }
-button.DTTT_button_copy:hover span { background: #f0f0f0 url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/copy_hover.png) no-repeat center right; }
+button.DTTT_button_copy span { background: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/copy.png) no-repeat center right; }
+button.DTTT_button_copy:hover span { background: #f0f0f0 url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/copy_hover.png) no-repeat center right; }
 
-button.DTTT_button_pdf span { background: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/pdf.png) no-repeat center right; }
-button.DTTT_button_pdf:hover span { background: #f0f0f0 url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/pdf_hover.png) no-repeat center right; }
+button.DTTT_button_pdf span { background: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/pdf.png) no-repeat center right; }
+button.DTTT_button_pdf:hover span { background: #f0f0f0 url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/pdf_hover.png) no-repeat center right; }
 
-button.DTTT_button_print span { background: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/print.png) no-repeat center right; }
-button.DTTT_button_print:hover span { background: #f0f0f0 url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/print_hover.png) no-repeat center right; }
+button.DTTT_button_print span { background: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/print.png) no-repeat center right; }
+button.DTTT_button_print:hover span { background: #f0f0f0 url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/print_hover.png) no-repeat center right; }
 
  */
 
 button.DTTT_button_collection span {
 	padding-right: 17px;
-	background: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/collection.png) no-repeat center right;
+	background: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/collection.png) no-repeat center right;
 }
 
 button.DTTT_button_collection:hover span {
 	padding-right: 17px;
-	background: #f0f0f0 url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/collection_hover.png) no-repeat center right;
+	background: #f0f0f0 url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/collection_hover.png) no-repeat center right;
 }
 
 
@@ -241,7 +241,7 @@ div.DTTT_collection {
 }
 
 div.DTTT_collection_background {
-	background: transparent url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/background.png) repeat top left;
+	background: transparent url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/images/background.png) repeat top left;
 	z-index: 2001;
 }
 

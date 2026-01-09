@@ -6,8 +6,8 @@
     font-family: wpDataTablesIcons;
     font-style: normal;
     font-stretch: normal;
-    src: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot);
-    src: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot#iefix) format('embedded-opentype'), url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.woff) format('woff'), url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.ttf) format('truetype'), url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.svg#wpDataTablesIcons) format('svg');
+    src: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot);
+    src: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.eot#iefix) format('embedded-opentype'), url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.woff) format('woff'), url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.ttf) format('truetype'), url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/fonts/wpDataTablesIcons.svg#wpDataTablesIcons) format('svg');
 }
 /*  Table   */
 
@@ -537,7 +537,7 @@ div#wpdatatable-preview-container.wpDataTablesWrapper .wpdt-c .wpDataTablesWrapp
 .wpdt-c .wpDataTablesWrapper table.has-columns-hidden span.responsiveExpander,
 .wpdt-c .wpDataTablesWrapper table.has-columns-hidden > tbody > tr > td > span.responsiveExpander{
     opacity: 0.6;
-    background-image: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/plus.png);
+    background-image: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/plus.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 14px;
@@ -551,7 +551,7 @@ div#wpdatatable-preview-container.wpDataTablesWrapper .wpdt-c .wpDataTablesWrapp
 
 .wpdt-c .wpDataTablesWrapper table.has-columns-hidden > tbody > tr.detail-show > td span.responsiveExpander ,
 .wpdt-c .wpDataTablesWrapper table.has-columns-hidden > tbody > tr.detail-show > td span.responsiveExpander:hover{
-    background-image: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/plusafter.png);
+    background-image: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/plusafter.png);
 }
 
 .wpdt-c .wpDataTablesWrapper table.has-columns-hidden > tbody > tr > td > span.responsiveExpander:after,
@@ -647,7 +647,7 @@ div#wpdatatable-preview-container.wpDataTablesWrapper .wpdt-c .wpDataTablesWrapp
 }
 
 .wpdt-c .wpDataTables .overlayed:after {
-    content: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/oval-raspberry.png);
+    content: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/oval-raspberry.png);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
     border: solid 1px #ebedf2;
     background-color: #ffffff;

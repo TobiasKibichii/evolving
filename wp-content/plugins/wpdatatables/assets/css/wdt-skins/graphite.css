@@ -340,7 +340,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before {
     content: "";
     height: 11px;
     width: 11px;
-    background-image: url(https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/icons.png);
+    background-image: url(https://evolving8.pages.dev/wp-content/plugins/wpdatatables/assets/img/icons.png);
     background-repeat: no-repeat;
     background-position: -12px 0;
 

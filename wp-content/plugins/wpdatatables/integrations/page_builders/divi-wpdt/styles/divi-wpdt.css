@@ -1,6 +1,6 @@
 .DIVI_wpDataTable::before {
     content: "" !important;
-    background-image: url("https://192.168.189.128/wp-content/plugins/wpdatatables/integrations/page_builders/divi-wpdt/styles/media/table-icon.png");
+    background-image: url("https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/integrations/page_builders/divi-wpdt/styles/media/table-icon.png");
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
@@ -12,7 +12,7 @@
 
 .DIVI_wpDataChart::before {
     content: "" !important;
-    background-image: url("https://192.168.189.128/wp-content/plugins/wpdatatables/integrations/page_builders/divi-wpdt/styles/media/chart-icon.png");
+    background-image: url("https://012f6235.evolving8.pages.dev/wp-content/plugins/wpdatatables/integrations/page_builders/divi-wpdt/styles/media/chart-icon.png");
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;

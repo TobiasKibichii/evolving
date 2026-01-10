@@ -1,199 +1,277 @@
-/* ===============================
-   GLOBAL
-================================ */
-
+/* ===== GLOBAL ===== */
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  overflow-x: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0b0b0f;
+  color: #fff;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
 
-p {
-  margin: 0.7em 0;
-  line-height: 1.6;
+h2,
+h3 {
+  margin: 0 0 10px 0;
 }
 
-/* ===============================
-   NAV
-================================ */
-
+/* ===== NAV ===== */
 .top-nav {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 12px;
-  padding: 12px;
+  gap: 24px;
+  padding: 18px;
+  background: rgba(0, 0, 0, 0.8);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .top-nav a {
-  white-space: nowrap;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-/* ===============================
-   INTRO
-================================ */
-
+/* ===== INTRO ===== */
 .intro-section {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
-  max-width: 1200px;
-  margin: auto;
-  padding: 40px 20px;
+  padding: 80px 10%;
 }
 
 .intro-section img {
-  max-width: 280px;
-  border-radius: 12px;
+  width: 220px;
+  border-radius: 50%;
 }
 
 .intro-text {
-  max-width: 600px;
+  max-width: 500px;
+  font-size: 18px;
 }
 
-/* ===============================
-   SKILLS
-================================ */
+/* ===== SKILLS ===== */
+.sticky-skills {
+  padding: 60px 5%;
+}
+
+.skills-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .skills-carousel {
   display: flex;
-  width: 100%;
-  overflow: hidden;
+  transition: transform .4s ease;
 }
 
 .skills-slide {
   min-width: 100%;
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  gap: 24px;
 }
 
 .sticky-card {
-  max-width: 420px;
-  width: 100%;
+  flex: 1;
+  background: #14141d;
+  padding: 25px;
+  border-radius: 16px;
 }
 
-/* ===============================
-   PROJECTS
-================================ */
+.sticky-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sticky-card li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.sticky-card img {
+  width: 24px;
+}
+
+/* ===== PROJECTS ===== */
+.projects-section {
+  padding: 60px 5%;
+}
+
+.projects-carousel {
+  display: flex;
+  transition: transform .4s ease;
+}
+
+.project-slide {
+  min-width: 100%;
+}
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
-/* ===============================
-   MODAL
-================================ */
+.project-card {
+  background: #14141d;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background: #1b1b2b;
+}
+
+/* ===== MODAL ===== */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
 
 .modal-content {
+  background: #0b0b10;
+  width: 80%;
   max-width: 900px;
-  width: 95%;
+  max-height: 90vh;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  align-self: flex-end;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.slides-container {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
 }
 
 .slide img {
   max-width: 100%;
-  height: auto;
+  max-height: 70vh;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
-/* ===============================
-   MOBILE LAYOUT
-================================ */
+.slide-controls {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
 
+.slide-controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* ================== MOBILE ================== */
 @media (max-width: 768px) {
 
-  /* Stretch layout */
-  .intro-section,
-  .projects-section,
-  .sticky-skills {
-    max-width: 100%;
-    padding: 20px;
+  /* NAV */
+  .top-nav {
+    flex-wrap: wrap;
+    gap: 14px;
   }
 
-  /* Intro stacks */
+  /* INTRO */
   .intro-section {
     flex-direction: column;
     text-align: center;
+    padding: 40px 8%;
   }
 
   .intro-section img {
-    max-width: 180px;
+    width: 160px;
   }
 
-  /* Projects: 1 column */
-  .project-grid {
-    grid-template-columns: 1fr !important;
+  /* SKILLS — turn carousel into stacked */
+  .skills-next,
+  .skills-indicators {
+    display: none;
   }
 
-  .project-card {
-    width: 100% !important;
-  }
-
-  /* Remove skills arrow */
-  .skills-next {
-    display: none !important;
-  }
-
-  /* Disable carousel for skills */
   .skills-carousel {
+    flex-direction: column;
     transform: none !important;
-    display: block !important;
   }
 
   .skills-slide {
-    display: block !important;
-    width: 100% !important;
+    flex-direction: column;
+    margin-bottom: 25px;
   }
 
-  .sticky-card {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin-bottom: 20px;
+  /* PROJECTS */
+  .projects-next,
+  .projects-indicators {
+    display: none;
   }
 
-  .sticky-skills {
-    overflow: visible !important;
+  .projects-carousel {
+    flex-direction: column;
+    transform: none !important;
   }
 
-  /* Text scaling */
-  h1 {
-    font-size: 28px;
+  .project-grid {
+    grid-template-columns: 1fr;
   }
 
-  h2 {
-    font-size: 24px;
+  /* MODAL */
+  .modal {
+    align-items: flex-start;
+    padding: 10px;
   }
 
-  h3 {
-    font-size: 20px;
+  .modal-content {
+    width: 100%;
+    max-width: 100%;
+    max-height: 95vh;
+    border-radius: 12px;
+    padding: 15px;
   }
 
-  p {
-    font-size: 15px;
-  }
-}
-
-/* ===============================
-   SMALL PHONES
-================================ */
-
-@media (max-width: 480px) {
-  .top-nav a {
-    font-size: 14px;
+  .slide img {
+    max-height: 60vh;
   }
 
-  .intro-text {
-    font-size: 15px;
+  .slide-controls {
+    position: sticky;
+    bottom: 0;
+    background: #0b0b10;
+    padding: 10px 0;
   }
 }

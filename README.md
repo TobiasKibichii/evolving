@@ -26,10 +26,10 @@
 [<p><strong>🖼️ Screenshots</strong></p>
 
    <p>Introduction, Skills & Technologies </p>
-  <img src="wp-content/uploads/Screenshot (268).png" alt="Introduction, Skills & Technologies " title ='Introduction, Skills & Technologies ' style="width:800px; " />
+  <img src="wp-content/uploads/Screenshot (263).png" alt="Introduction, Skills & Technologies " title ='Introduction, Skills & Technologies ' style="width:800px; " />
    <p>My Projects </p>
-  <img src="wp-content/uploads/Screenshot (269).png" alt="My Projects " title ='My Projects  ' style="width:800px; " />
+  <img src="wp-content/uploads/Screenshot (264).png" alt="My Projects " title ='My Projects  ' style="width:800px; " />
    <p>Activities </p>
-  <img src="wp-content/uploads/Screenshot (270).png" alt="Activities " title ='Activities ' style="width:800px; " />
+  <img src="wp-content/uploads/Screenshot (265).png" alt="Activities " title ='Activities ' style="width:800px; " />
    <p>Contact Me </p>
-  <img src="wp-content/uploads/Screenshot (271).png" alt="Contact Me  " title ='Contact Me ' style="width:800px; " />
+  <img src="wp-content/uploads/Screenshot (266).png" alt="Contact Me  " title ='Contact Me ' style="width:800px; " />

@@ -22,3 +22,14 @@
   <li>⚙️ Custom Styling & Layout — Designed visually appealing layouts using Elementor while maintaining responsive design.</li>
   <li>🚀 Performance Optimization — Optimized LAMP server and WordPress configuration for faster loading times.</li>
 </ul>
+
+[<p><strong>🖼️ Screenshots</strong></p>
+
+   <p>Introduction, Skills & Technologies </p>
+  <img src="wp-content/uploads/Screenshot (268).png" alt="Introduction, Skills & Technologies " title ='Introduction, Skills & Technologies ' style="width:800px; " />
+   <p>My Projects </p>
+  <img src="wp-content/uploads/Screenshot (269).png" alt="My Projects " title ='My Projects  ' style="width:800px; " />
+   <p>Activities </p>
+  <img src="wp-content/uploads/Screenshot (270).png" alt="Activities " title ='Activities ' style="width:800px; " />
+   <p>Contact Me </p>
+  <img src="wp-content/uploads/Screenshot (271).png" alt="Contact Me  " title ='Contact Me ' style="width:800px; " />
